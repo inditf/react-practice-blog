@@ -1,0 +1,272 @@
+.app {
+    margin: 0 auto;
+    padding: 20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    writing-mode: horizontal-tb;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow: hidden;
+
+    //顶部导航
+    .Navbar {
+
+        .headerTopDiv {
+            height: 80px;
+            width: 100%;
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: space-between;
+            position: fixed;
+            flex-flow: row;
+
+            .headerTitle {
+                margin-left: 100px;
+                display: flex;
+                align-items: center;
+
+                .logo {
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 15px;
+                    display: inline-block;
+
+                }
+
+                .spanTitle {
+                    color: white;
+                    padding-left: 10px;
+                    // padding-top: 80px;
+                    // height: 100px;
+                    font-size: 25px;
+                    width: 4em;
+                }
+            }
+
+            nav {
+                height: 80px;
+
+                ul {
+                    padding: 0;
+                    margin: 20px;
+                    list-style-type: none;
+                    display: flex;
+                    justify-content: space-between;
+
+                    a {
+                        color: white;
+                        display: block;
+                        font-size: 18px;
+                        text-align: center;
+                        text-decoration: none;
+                        padding: 10px 15px;
+                        margin-left: 20px;
+                        border-radius: 10px;
+                        width: 80px;
+                    }
+
+                    .manage {
+                        background-color: rgba(58, 54, 60, 0.854);
+                        ;
+                    }
+
+                    a:hover {
+                        color: white;
+                        background-color: black;
+                    }
+
+                    a:active {
+                        color: black;
+                        background-color: white;
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+    .Home {
+
+        /* 欢迎词 */
+        .headerBottomDiv {
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-image: url("./images/main_img.jpg");
+            background-repeat: round;
+            object-fit: cover;
+        }
+
+        .headerBottomDiv span {
+            display: block;
+            color: white;
+            text-align: center;
+            font-size: 70px;
+            letter-spacing: 10px;
+        }
+
+        /* 主要内容 */
+        .courseIntro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-grow: 1;
+
+            .coursePurpose {
+                clear: both;
+                margin-top: 10px;
+
+                h2 {
+                    font-size: 28px;
+                    margin-top: 50px;
+                    margin-bottom: 15px;
+                }
+
+                .purposeImg {
+                    display: flex;
+
+                    h3 {
+                        font-size: 22px;
+                        font-weight: bold;
+                    }
+
+                    img {
+                        width: 250px;
+                        height: 180px;
+                        margin-right: 20px;
+
+                    }
+                }
+            }
+
+            /* 课程安排 */
+            .courseSechdule {
+
+                /* display: flex; */
+                /* flex-direction: column; */
+                h2 {
+                    font-size: 30px;
+                    margin-top: 75px;
+                    text-align: center;
+
+                }
+
+                .courseDiv {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 1080px;
+
+                    .course {
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+
+                        h3 {
+                            font-size: 20px;
+                            margin-bottom: 5px;
+
+                        }
+
+                        img {
+                            width: 120px;
+                            height: 120px;
+                            border-radius: 50%;
+                            float: left;
+                            margin-right: 20px;
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    /*底部标签*/
+    .footer {
+        background-color: gainsboro;
+        height: 250px;
+        width: 100%;
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: monospace;
+
+        /* 底部logo */
+        .webFooterLogo {
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .webFooterLogo1,
+            .webFooterLogo2,
+            .webFooterLogo3 {
+                width: 50px;
+                height: 50px;
+                background-color: black;
+                border-radius: 50%;
+                margin-right: 25px;
+
+                span {
+                    display: block;
+                    text-align: center;
+                    font-size: 30px;
+                    color: white;
+                    padding-top: 8px;
+                }
+            }
+        }
+
+        /* 底部链接 */
+        .footerLinks {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .link1,
+            .link2,
+            .link3 {
+                padding-right: 70px;
+            }
+
+            ul {
+                list-style-type: none;
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+                color: black;
+                margin-bottom: 8px;
+                margin-left: -40px;
+            }
+
+            a:hover {
+                color: white;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
