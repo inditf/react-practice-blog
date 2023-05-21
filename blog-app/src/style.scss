@@ -38,8 +38,6 @@
                 .spanTitle {
                     color: white;
                     padding-left: 10px;
-                    // padding-top: 80px;
-                    // height: 100px;
                     font-size: 25px;
                     width: 4em;
                 }
@@ -259,7 +257,58 @@
         }
     }
 
+    .auth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
 
+        h1 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            background-color: white;
+            width: 200px;
+            gap: 20px;
+
+            input {
+                padding: 10px;
+                border: none;
+                border-bottom: 1px solid gray;
+            }
+
+            button {
+                padding: 10px;
+                border: none;
+                background-color: teal;
+                cursor: pointer;
+                color: white;
+            }
+
+            span {
+                font-size: 12px;
+                text-align: center;
+            }
+
+            p {
+                gap: 10px;
+                padding: 0;
+                margin: 0;
+                font-size: 12px;
+                height: 2rem;
+                color: red;
+                text-align: center;
+                visibility: hidden;
+            }
+        }
+    }
 
 
 

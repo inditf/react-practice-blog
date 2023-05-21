@@ -42,16 +42,17 @@ const router = createBrowserRouter([
         path: "/write",
         element: <Write />,
       },
+      {
+        path: "/register",
+        element: <Register />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
+      },
     ],
   },
-  {
-    path: "/register",
-    element: <Register />,
-  },
-  {
-    path: "/login",
-    element: <Login />,
-  },
+
 ]);
 
 function App() {

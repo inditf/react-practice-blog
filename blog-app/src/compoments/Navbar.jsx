@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../images/logo.jpeg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -13,15 +14,15 @@ const Navbar = () => {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#" title="开发文档">开发文档</a></li>
-                        <li><a href="#" title="交流中心">交流中心</a></li>
-                        <li><a href="#" title="服务市场">服务市场</a></li>
-                        <li><a href="#" title="开源联盟">开源联盟</a></li>
-                        <li><a href="#" title="管理中心" className="manage">管理中心</a></li>
+                        <li><Link to="/">课程安排</Link></li>
+                        <li><Link to="/">博客文档</Link></li>
+                        <li><Link to="/">博客编写</Link></li>
+                        <li><Link to="/">博客技术</Link></li>
+                        <li><Link className="manage" to="/login">管理中心</Link></li>
                     </ul>
                 </nav>
             </div>
-        </header>
+        </header >
     );
 }
 export default Navbar;
