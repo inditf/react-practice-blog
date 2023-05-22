@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className="Home">
             <div className="headerBottomDiv">
-                <span><strong>前端训练营开营了，赶快报名吧！</strong></span>
+                <span><strong>这是一个前端博客</strong></span>
             </div>
             <div className="courseIntro">
                 <div className="coursePurpose">

@@ -9,12 +9,12 @@ const Navbar = () => {
                 <div className="headerTitle">
                     <img className="logo" src={Logo} alt="logo" />
                     <div className="spanTitle">
-                        <span>前端学习</span>
+                        <span>前端博客</span>
                     </div>
                 </div>
                 <nav>
                     <ul>
-                        <li><Link to="/">课程安排</Link></li>
+                        <li><Link to="/">博客介绍</Link></li>
                         <li><Link to="/">博客文档</Link></li>
                         <li><Link to="/">博客编写</Link></li>
                         <li><Link to="/">博客技术</Link></li>
