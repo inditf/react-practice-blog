@@ -4,7 +4,7 @@ import {
   Route,
   Outlet,
 } from "react-router-dom";
-import { renderHook } from '@testing-library/react';
+// import { renderHook } from '@testing-library/react';
 import "./style.scss"
 
 import Login from './pages/Login';
