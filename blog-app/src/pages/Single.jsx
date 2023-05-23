@@ -1,7 +1,7 @@
 import React from "react";
 const Single = () => {
     return (
-        <div>
+        <div className="single">
             <h1>Single Page</h1>
         </div>
     );

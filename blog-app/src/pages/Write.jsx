@@ -3,7 +3,11 @@ import React from "react";
 const Write = () => {
     return (
         <div className="write">
-            <p>Write Page</p>
+            <h1>Write Page</h1>
+            <div className="conent">
+
+            </div>
+
         </div>
     )
 }

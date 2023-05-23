@@ -4,17 +4,18 @@ import {
   Route,
   Outlet,
 } from "react-router-dom";
-import "./style.scss"
+import "./style.scss";
 
 import Login from './pages/Login';
-import Register from './pages/Register';
+import Register from './pages/Register';//
 import Single from './pages/Single';
 import Write from './pages/Write';
 import Home from './pages/Home';
 import Navbar from "./compoments/Navbar";
 import Footer from "./compoments/Footer";
+import Menu from "./compoments/Menu";
 
-const Layout = () => {
+const Layout = () => {//
   return (
     <>
       <Navbar />
@@ -25,6 +26,7 @@ const Layout = () => {
 };
 
 const router = createBrowserRouter([
+
   {
     path: "/",
     element: <Layout />,
@@ -49,6 +51,10 @@ const router = createBrowserRouter([
         path: "/login",
         element: <Login />,
       },
+      {
+        path: "/menu",
+        element: <Menu />,
+      }
     ],
   },
 
@@ -58,6 +64,7 @@ function App() {
   return (
     <div className="app">
       <RouterProvider router={router} />
+      {/* <p>Hello</p> */}
     </div>
   );
 }

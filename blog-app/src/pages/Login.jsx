@@ -8,8 +8,12 @@ const Login = () => {
                 <input type="text" placeholder="username" />
                 <input type="password" placeholder="password" />
                 <button>登录</button>
-                <span>Don't you have an account <Link to="/register">Register</Link></span>
-                <p>Error!</p>
+                <span>
+                    <p className="tips">Don't you have an account </p>
+                    <Link to="/register">Register</Link>
+                    <p className="error">Error!</p>
+                </span>
+
             </form>
         </div>
 
