@@ -142,47 +142,6 @@
                     }
                 }
             }
-
-            /* 课程安排 */
-            .courseSechdule {
-
-                /* display: flex; */
-                /* flex-direction: column; */
-                h2 {
-                    font-size: 30px;
-                    margin-top: 75px;
-                    text-align: center;
-
-                }
-
-                .courseDiv {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    width: 1080px;
-
-                    .course {
-                        margin-bottom: 20px;
-                        margin-top: 20px;
-
-                        h3 {
-                            font-size: 20px;
-                            margin-bottom: 5px;
-
-                        }
-
-                        img {
-                            width: 120px;
-                            height: 120px;
-                            border-radius: 50%;
-                            float: left;
-                            margin-right: 20px;
-                        }
-
-                    }
-                }
-            }
         }
 
     }
@@ -264,6 +223,7 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
+        // background-color: white;
 
         h1 {
             font-size: 20px;
@@ -332,6 +292,7 @@
         text-align: center;
 
         h1 {
+            text-align: center;
             font-size: 30px;
         }
 
@@ -350,13 +311,174 @@
             }
 
             .buttons {
-                display: block;
-                float: right;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 auto;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                background-color: white;
+                color: #555;
+                border-radius: 5px;
+                border: 1px solid lightgray;
+                font-size: 12px;
+
+                a {
+                    text-decoration: none;
+                    color: #555;
+                }
+
+                &:hover {
+                    background-color: #eee;
+                }
+
             }
         }
-
     }
 
+    //博客详情
+    .single {
+        margin: 80px auto;
+        width: 1080px;
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .single-content {
+            display: flex;
+
+            .content {
+                flex: 5;
+                margin: 0 20px;
+                flex-direction: column;
+                gap: 50px;
+                // border: 1px solid lightgray;
+                // background-color: white;
+
+                .info {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-size: 12px;
+                    justify-content: center;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+
+                .desc {
+                    h1 {
+                        font-size: 30px;
+                        color: #333;
+                    }
+
+                    p {
+                        text-align: justify;
+                        line-height: 30px;
+                    }
+                }
+            }
+
+            .sidebar {
+                flex: 2;
+                width: 280px;
+                margin: 0;
+                gap: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1 {
+                    font-size: 20px;
+                }
+
+                .post {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    h2 {
+                        font-size: 15px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+
+                    .buttons {
+                        width: max-content;
+                        padding: 10px 20px;
+                        border: none;
+                        cursor: pointer;
+                        background-color: white;
+                        color: #555;
+                        border-radius: 5px;
+                        border: 1px solid lightgray;
+                        font-size: 12px;
+
+                        a {
+                            text-decoration: none;
+                            color: #555;
+                        }
+
+                        &:hover {
+                            background-color: #eee;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    //博客编辑
+    .write-page {
+        margin: 80px auto;
+        width: 1080px;
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .content {
+            margin: 0 auto;
+            width: 1080px;
+            height: 100vh;
+            background-color: white;
+            border: 1px solid lightgray;
+            display: flex;
+
+            // flex-direction: column;
+
+            .left-content {
+                flex: 5;
+                border: 1px solid red;
+            }
+
+            .right-content {
+                flex: 2;
+                display: flex;
+                border: 1px solid blue;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    }
 
 
 

@@ -24,6 +24,38 @@ const Layout = () => {//
     </>
   );
 };
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element:
+//       <>
+//         <Navbar />
+//         <Home />
+//         <Footer />
+//       </>
+//     ,
+//   },
+//   {
+//     path: "/single",
+//     element: <Single />,
+//   },
+//   {
+//     path: "/write",
+//     element: <Write />,
+//   },
+//   {
+//     path: "/register",
+//     element: <Register />,
+//   },
+//   {
+//     path: "/login",
+//     element: <Login />,
+//   },
+//   {
+//     path: "/menu",
+//     element: <Menu />,
+//   }
+// ]);
 
 const router = createBrowserRouter([
 

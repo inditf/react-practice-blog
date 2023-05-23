@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 const Menu = () => {
 
@@ -27,15 +27,18 @@ const Menu = () => {
     ];
     return (
         <div className="menu">
-            <h1>博客列表</h1>
+            <h1>Blog List</h1>
             {posts.map((post) => (
                 <div className="post" key={post.id}>
                     <h2>{post.title}</h2>
                     <p>{post.desc}</p>
-                    <button>Read More</button>
+                    <button className="buttons">
+                        <Link to="/single">Read More</Link>
+                    </button>
                 </div>
-            ))}
-        </div>
+            ))
+            }
+        </div >
     );
 };
 
