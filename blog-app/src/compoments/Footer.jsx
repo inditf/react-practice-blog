@@ -5,13 +5,13 @@ const Footer = () => {
         <div className="footer">
             <div class="webFooterLogo">
                 <div className="webFooterLogo1">
-                    <span>I</span>
+                    <span>W</span>
                 </div>
                 <div className="webFooterLogo2">
-                    <span>F</span>
+                    <span>E</span>
                 </div>
                 <div className="webFooterLogo3">
-                    <span>E</span>
+                    <span>B</span>
                 </div>
             </div>
             <div className="footerLinks">

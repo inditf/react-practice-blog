@@ -32,6 +32,7 @@
                     height: 50px;
                     margin-right: 15px;
                     display: inline-block;
+                    border-radius: 25%;
 
                 }
 
@@ -347,11 +348,6 @@
         gap: 20px;
         text-align: center;
 
-        h1 {
-            text-align: center;
-            font-size: 30px;
-        }
-
         .single-content {
             display: flex;
 
@@ -360,8 +356,13 @@
                 margin: 0 20px;
                 flex-direction: column;
                 gap: 50px;
+
                 // border: 1px solid lightgray;
                 // background-color: white;
+                h2 {
+                    font-size: 30px;
+                    color: #333;
+                }
 
                 .info {
                     display: flex;
@@ -376,15 +377,11 @@
                 }
 
                 .desc {
-                    h1 {
-                        font-size: 30px;
-                        color: #333;
-                    }
-
-                    p {
-                        text-align: justify;
-                        line-height: 30px;
-                    }
+                    // clear: both;
+                    // p {
+                    text-align: justify;
+                    //     line-height: 30px;
+                    // }
                 }
             }
 
@@ -396,9 +393,15 @@
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
+                position: sticky;
 
                 h1 {
                     font-size: 20px;
+                }
+
+                .markdown-nav {
+                    position: fixed;
+                    width: 280px;
                 }
 
                 .post {

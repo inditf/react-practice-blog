@@ -16,8 +16,7 @@ const Navbar = () => {
                     <ul>
                         <li><Link to="/">博客介绍</Link></li>
                         <li><Link to="/menu">博客列表</Link></li>
-                        {/* <li><Link to="/write">博客编写</Link></li> */}
-                        <li><Link className="manage" to="/login">管理中心</Link></li>
+                        <li><Link className="manage" to="/login">用户中心</Link></li>
                     </ul>
                 </nav>
             </div>
