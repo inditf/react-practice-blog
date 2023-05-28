@@ -193,27 +193,16 @@
             align-items: center;
             justify-content: center;
 
-            .link1,
-            .link2,
-            .link3 {
-                padding-right: 50px;
-            }
-
-            ul {
-                list-style-type: none;
-            }
-
             a {
-                display: block;
+                // display: inline-block;
                 text-decoration: none;
                 color: black;
-                margin-bottom: 8px;
-                margin-left: -40px;
+
+                &:hover {
+                    color: white;
+                }
             }
 
-            a:hover {
-                color: white;
-            }
         }
     }
 

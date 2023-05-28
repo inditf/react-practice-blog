@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import MarkNav from 'markdown-navbar';
 import rehypeHighlight from 'rehype-highlight'
 import 'markdown-navbar/dist/navbar.css';

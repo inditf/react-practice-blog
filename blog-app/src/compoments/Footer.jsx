@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footerLinks">
-                <div className="link1">
+                {/* <div className="link1">
                     <h3>Links</h3>
                     <ul>
                         <li><a href="#" title="技术培训中心">技术培训中心</a></li>
@@ -44,6 +44,11 @@ const Footer = () => {
                         <li><a href="#" title="技术培训中心">技术培训中心</a></li>
                         <li><a href="#" title="技术培训">技术培训</a></li>
                     </ul>
+                </div> */}
+                <div className="my-info">
+                    <p>Lin的博客 Based on React</p>
+                    <p><a href="https://github.com/inditf" >My Github</a></p>
+                    <p><a href="https://github.com/inditf/react-practice-blog" >Project location</a> </p>
                 </div>
             </div>
         </div>
