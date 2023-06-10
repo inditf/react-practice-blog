@@ -1,5 +1,4 @@
 This is a blog template for learning React.  
-### Deployed on [GitHub Pages](https://inditf.github.io/react-practice-blog/).
 ## `Usage`
 [`React Doc`](https://react.dev/)  
 [`React Doc/zh-CN`](https://react.docschina.org/)  
